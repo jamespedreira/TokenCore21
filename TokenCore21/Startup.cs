@@ -16,6 +16,7 @@ namespace TokenCore21
     {
         public Startup(IConfiguration configuration)
         {
+           
             Configuration = configuration;
         }
 

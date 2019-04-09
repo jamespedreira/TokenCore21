@@ -70,11 +70,12 @@ namespace Geriatria.Api.Controllers
                     { "userId", 1},
                     { "name", username },
                     { "ConnectionStringCore", _configuration["CORE"] },
+                    { "Secrets", _configuration["CORESecrets"] },
                     //{ "companyId", companyId },
                     //{ "userCompanyId", uepIdenti },
                     //{ "isMaster", user.USU_MASTER },
                     //{ ".issued", now.ToString("ddd, dd MMM yyyy HH:mm:ss", new CultureInfo("en-US")) + " GMT" },
-                    { ".expires", now.AddHours(hoursToExpire).ToString("ddd, dd MMM yyyy HH:mm:ss", new CultureInfo("en-US")) + " GMT" }
+                { ".expires", now.AddHours(hoursToExpire).ToString("ddd, dd MMM yyyy HH:mm:ss", new CultureInfo("en-US")) + " GMT" }
                 });
             }
             catch (Exception ex)

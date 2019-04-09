@@ -19,6 +19,7 @@ namespace TokenCore21
 
         public static IWebHostBuilder CreateWebHostBuilder(string[] args) =>
             WebHost.CreateDefaultBuilder(args)
+                .ConfigureAppConfiguration(x => x.AddDockerSecrets())
                 .UseStartup<Startup>();
     }
 }

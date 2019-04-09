@@ -1796,6 +1796,21 @@
           "lib/netstandard2.0/Microsoft.Extensions.Configuration.CommandLine.dll": {}
         }
       },
+      "Microsoft.Extensions.Configuration.DockerSecrets.Unofficial/1.1.2": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Configuration": "1.1.2",
+          "Microsoft.Extensions.FileProviders.Abstractions": "1.1.1",
+          "Microsoft.Extensions.FileProviders.Physical": "1.1.1",
+          "NETStandard.Library": "1.6.1"
+        },
+        "compile": {
+          "lib/netstandard1.3/Microsoft.Extensions.Configuration.DockerSecrets.Unofficial.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.3/Microsoft.Extensions.Configuration.DockerSecrets.Unofficial.dll": {}
+        }
+      },
       "Microsoft.Extensions.Configuration.EnvironmentVariables/2.1.1": {
         "type": "package",
         "dependencies": {
@@ -5959,6 +5974,21 @@
         "lib/netstandard2.0/Microsoft.Extensions.Configuration.CommandLine.xml",
         "microsoft.extensions.configuration.commandline.2.1.1.nupkg.sha512",
         "microsoft.extensions.configuration.commandline.nuspec"
+      ]
+    },
+    "Microsoft.Extensions.Configuration.DockerSecrets.Unofficial/1.1.2": {
+      "sha512": "heb8Wx4+uSeKogjlpo4gGuTgC8kEWluTLVhqL2wPYJSAtnd9d1waqVRQaU8fclDO1E4nm5zbDvB/tkaEdGy9ZA==",
+      "type": "package",
+      "path": "microsoft.extensions.configuration.dockersecrets.unofficial/1.1.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net451/Microsoft.Extensions.Configuration.DockerSecrets.Unofficial.dll",
+        "lib/net451/Microsoft.Extensions.Configuration.DockerSecrets.Unofficial.xml",
+        "lib/netstandard1.3/Microsoft.Extensions.Configuration.DockerSecrets.Unofficial.dll",
+        "lib/netstandard1.3/Microsoft.Extensions.Configuration.DockerSecrets.Unofficial.xml",
+        "microsoft.extensions.configuration.dockersecrets.unofficial.1.1.2.nupkg.sha512",
+        "microsoft.extensions.configuration.dockersecrets.unofficial.nuspec"
       ]
     },
     "Microsoft.Extensions.Configuration.EnvironmentVariables/2.1.1": {
@@ -11833,6 +11863,7 @@
     ".NETCoreApp,Version=v2.1": [
       "Microsoft.AspNetCore.App >= 2.1.1",
       "Microsoft.AspNetCore.Razor.Design >= 2.1.2",
+      "Microsoft.Extensions.Configuration.DockerSecrets.Unofficial >= 1.1.2",
       "Microsoft.NETCore.App >= 2.1.0",
       "Microsoft.VisualStudio.Azure.Containers.Tools.Targets >= 1.0.2105168"
     ]
@@ -11889,6 +11920,10 @@
             "suppressParent": "All",
             "target": "Package",
             "version": "[2.1.2, )"
+          },
+          "Microsoft.Extensions.Configuration.DockerSecrets.Unofficial": {
+            "target": "Package",
+            "version": "[1.1.2, )"
           },
           "Microsoft.NETCore.App": {
             "suppressParent": "All",
