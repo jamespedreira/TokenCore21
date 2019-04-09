@@ -1,5 +1,6 @@
 ﻿using Geriatria.Api.DTOs;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Configuration;
 using Microsoft.IdentityModel.Tokens;
 using System;
 using System.Collections.Generic;
@@ -12,10 +13,11 @@ namespace Geriatria.Api.Controllers
 {
     public class TokenEndpointController : Controller
     {
+        private readonly IConfiguration _configuration;
 
-
-        public TokenEndpointController() 
+        public TokenEndpointController(IConfiguration configuration) 
         {
+            _configuration = configuration;
         }
 
         [Route("api/token"), HttpPost]
@@ -67,6 +69,7 @@ namespace Geriatria.Api.Controllers
                     { "expires_in", hoursToExpire * 60 * 60 },
                     { "userId", 1},
                     { "name", username },
+                    { "ConnectionStringCore", _configuration["CORE"] },
                     //{ "companyId", companyId },
                     //{ "userCompanyId", uepIdenti },
                     //{ "isMaster", user.USU_MASTER },
