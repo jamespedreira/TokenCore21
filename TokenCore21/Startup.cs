@@ -16,6 +16,7 @@ namespace TokenCore21
     {
         public Startup(IConfiguration configuration)
         {
+           
             Configuration = configuration;
         }
 
@@ -24,6 +25,8 @@ namespace TokenCore21
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            var a = new ConfigurationBuilder();
+            a.AddEnvironmentVariables();
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
         }
 

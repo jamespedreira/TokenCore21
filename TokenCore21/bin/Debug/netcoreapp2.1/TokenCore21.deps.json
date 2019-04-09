@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.1",
-    "signature": "4fc181b3c2480278540dfc943275915342d57c71"
+    "signature": "bc8342582fb5814357af09e63c5c3e60634fc9e1"
   },
   "compilationOptions": {
     "defines": [
@@ -26,6 +26,7 @@
         "dependencies": {
           "Microsoft.AspNetCore.App": "2.1.1",
           "Microsoft.AspNetCore.Razor.Design": "2.1.2",
+          "Microsoft.Extensions.Configuration.DockerSecrets.Unofficial": "1.1.2",
           "Microsoft.NETCore.App": "2.1.0",
           "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": "1.0.2105168"
         },
@@ -37,6 +38,23 @@
         }
       },
       "Microsoft.AspNetCore.Razor.Design/2.1.2": {},
+      "Microsoft.Extensions.Configuration.DockerSecrets.Unofficial/1.1.2": {
+        "dependencies": {
+          "Microsoft.Extensions.Configuration": "2.1.1",
+          "Microsoft.Extensions.FileProviders.Abstractions": "2.1.1",
+          "Microsoft.Extensions.FileProviders.Physical": "2.1.1",
+          "NETStandard.Library": "2.0.3"
+        },
+        "runtime": {
+          "lib/netstandard1.3/Microsoft.Extensions.Configuration.DockerSecrets.Unofficial.dll": {
+            "assemblyVersion": "1.1.2.0",
+            "fileVersion": "1.1.2.0"
+          }
+        },
+        "compile": {
+          "lib/netstandard1.3/Microsoft.Extensions.Configuration.DockerSecrets.Unofficial.dll": {}
+        }
+      },
       "Microsoft.NETCore.App/2.1.0": {
         "dependencies": {
           "Microsoft.NETCore.DotNetHostPolicy": "2.1.0",
@@ -3163,6 +3181,13 @@
       "sha512": "sha512-ab4+TZw3Sxqrr5TwrwVyABeQkhSxYMJXgG6yZw7T+r6Vz+hcOt+pK79o15ESG7kZvWAK9wRG7emnTIia5O6R1Q==",
       "path": "microsoft.aspnetcore.razor.design/2.1.2",
       "hashPath": "microsoft.aspnetcore.razor.design.2.1.2.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Configuration.DockerSecrets.Unofficial/1.1.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-heb8Wx4+uSeKogjlpo4gGuTgC8kEWluTLVhqL2wPYJSAtnd9d1waqVRQaU8fclDO1E4nm5zbDvB/tkaEdGy9ZA==",
+      "path": "microsoft.extensions.configuration.dockersecrets.unofficial/1.1.2",
+      "hashPath": "microsoft.extensions.configuration.dockersecrets.unofficial.1.1.2.nupkg.sha512"
     },
     "Microsoft.NETCore.App/2.1.0": {
       "type": "package",
