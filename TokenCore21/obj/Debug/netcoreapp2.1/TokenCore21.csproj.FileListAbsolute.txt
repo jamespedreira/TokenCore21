@@ -1,0 +1,14 @@
+D:\James\Token\TokenCore21\TokenCore21\obj\Debug\netcoreapp2.1\TokenCore21.csproj.CoreCompileInputs.cache
+D:\James\Token\TokenCore21\TokenCore21\obj\Debug\netcoreapp2.1\TokenCore21.AssemblyInfoInputs.cache
+D:\James\Token\TokenCore21\TokenCore21\obj\Debug\netcoreapp2.1\TokenCore21.AssemblyInfo.cs
+D:\James\Token\TokenCore21\TokenCore21\bin\Debug\netcoreapp2.1\TokenCore21.deps.json
+D:\James\Token\TokenCore21\TokenCore21\bin\Debug\netcoreapp2.1\TokenCore21.runtimeconfig.json
+D:\James\Token\TokenCore21\TokenCore21\bin\Debug\netcoreapp2.1\TokenCore21.runtimeconfig.dev.json
+D:\James\Token\TokenCore21\TokenCore21\bin\Debug\netcoreapp2.1\TokenCore21.dll
+D:\James\Token\TokenCore21\TokenCore21\bin\Debug\netcoreapp2.1\TokenCore21.pdb
+D:\James\Token\TokenCore21\TokenCore21\obj\Debug\netcoreapp2.1\TokenCore21.csprojAssemblyReference.cache
+D:\James\Token\TokenCore21\TokenCore21\obj\Debug\netcoreapp2.1\TokenCore21.RazorAssemblyInfo.cache
+D:\James\Token\TokenCore21\TokenCore21\obj\Debug\netcoreapp2.1\TokenCore21.RazorAssemblyInfo.cs
+D:\James\Token\TokenCore21\TokenCore21\obj\Debug\netcoreapp2.1\TokenCore21.RazorTargetAssemblyInfo.cache
+D:\James\Token\TokenCore21\TokenCore21\obj\Debug\netcoreapp2.1\TokenCore21.dll
+D:\James\Token\TokenCore21\TokenCore21\obj\Debug\netcoreapp2.1\TokenCore21.pdb
